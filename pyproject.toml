@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ds2"
+version = "0.1.0"
+description = ""
+authors = ["Ihor Siedielnikov <sisemail92@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+lxml = "^4.9.3"
+html5lib = "^1.1"
+beautifulsoup4 = "^4.12.2"
+matplotlib = "^3.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
